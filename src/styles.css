@@ -1,36 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
-#header-img	{
-	background-repeat: no-repeat;
-	max-width:100%;
-	height:500px;
+h1 {
+	font-size: 1rem;
 }
 
+body {
+	font-family: "Open Sans";
+}
+
+#header-img	{
+	background-image: url('assets/santorini.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 710px;
+	/*image padding bottom = h/w * 100 710/1899 = 37.1% */
+	padding-bottom: 37.1%; 
+}
+
+.album .container {
+	padding: 30px 30px 0 30px;
+	position: relative;
+	bottom: 50px;
+	background-color: white;
+}
 .btn {
 	background-color: #a0a0a0;
 	color: white;
 }
-
+.card {
+	background-color: transparent;
+	border: none;
+}
+.card img {
+	height: 9rem;
+}
+.card-body {
+	padding: .5rem;
+}
+.card-img-top {
+	display: block;
+	height: 225px; 
+	width: 100%; 
+}
 .centered {
 	width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
-
 .form-control {
 	background-color: #535353;
 	border: 1px solid black;
 }
-
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+.nav-item {
+	padding: 0 10px;
+}
 .raised {
-	position: relative;
-	padding-left: 30px;
-	padding-right: 30px;
 	background-color: white;
 	bottom: 30px;
-
+	padding-left: 30px;
+	padding-right: 30px;
+	position: relative;
 }
-
-
-/*.navbar-nav > .nav-link {
-  	color: white;
-}*/
+.video-section {
+	font-size: 1.3rem;
+	padding: 0 auto 10px auto;
+}
