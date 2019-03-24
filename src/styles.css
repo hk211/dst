@@ -16,7 +16,7 @@ img {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 710px;
+	height: 600px;
 	/*image padding bottom = h/w * 100 710/1899 = 37.1% */
 	padding-bottom: 37.1%; 
 }
@@ -25,6 +25,7 @@ img {
 	padding: 30px 30px 0 30px;
 	position: relative;
 	background-color: white;
+	bottom: 30px;
 }
 .btn {
 	background-color: #a0a0a0;
@@ -36,6 +37,7 @@ img {
 }
 .card img {
 	height: 9rem;
+	margin: auto;
 }
 .card-body {
 	padding: .5rem;
